@@ -1,0 +1,147 @@
+Selected Astronomical Constants, 2016 
+-------------------------------------
+
+This is the ASCII version of pages K6-K7 of The Astronomical Almanac 2016.  The following nomenclature is used in this file:  
+    (a) greek letters, as in TeX, are spelt out, e.g., alpha, 
+    (b) the symbols ^ and _ are used (as in TeX) to indicate superscripts and subscripts, respectively, 
+    (c) the symbols *, / and +/- denote multiplication, division, and plus-minus uncertainty bounds, respectively, and
+    (d) numerical exponents are given with the Fortran D format.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| The IAU 2009 System of Astronomical Constants (1) as published in the Report of the IAU Working Ground on Numerical Standards |
+| for Fundamental Astronomy (NSFA, 2011), and updated by resolution B2 of the IAU XXVIII General Assembly (2012), (2) planetary |
+| equatorial radii,  taken from the report of the IAU WG on Cartographic Coordinates and Rotational Elements: 2009 (2011),  and |
+| lastly (3) other useful constants.  For each quantity the list tabulates its description, symbol and value, and to the right, |
+| as appropriate, its uncertainty in units that the quantity is given in. Further information is given at the end of this file. |
+|                                                                                                                               |
+|---|---------------------------------------------------------------------------------------------------------------------------|
+|   | Description of Quantity                   |           Symbol = Value               | Unit                   | Uncertainty |
+|+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|+++++++++++++|
+|1  | IAU 2009/2012 System of Astronomical Constants                                                                            |
+|   |---------------------------------------------------------------------------------------------------------------------------|
+|1.1|Natural Defining Constant:                 |                                        |                        |             |
+|   | Speed of light                            |               c  = 299792458           | m/s                    |             |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|1.2|Auxiliary Defining Constants:              |                                        |                        |             |
+|   | Astronomical unit (unit distance)#        |            au =A = 149597870700        | m                      |             |
+|   | 1-d(TT)/d(TCG)                            |              L_G = 6.969290134D-10     |                        |             |
+|   | 1-d(TDB)/d(TCB)                           |              L_B = 1.550519768D-08     |                        |             |
+|   | TDB-TCB at T_0 = 2443144.5003725 (TCB)    |            TDB_0 = -6.55D-05           | s                      |             |
+|   | Earth rotation angle (ERA) at J2000.0 UT1 |          theta_0 = 0.7790572732640     | revolutions            |             |
+|   | Rate of advance of ERA                    |    d(theta)/dUT1 = 1.00273781191135448 | revs/UT1-day           |             |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|1.3|Natural Measurable Constant:               |                                        |                        |             |
+|   | Constant of gravitation                   |                G = 6.67428D-11         | m^3/kg/s^2             | +/- 6.7D-15 |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|1.4|Other Constants:                           |                                        |                        |             |
+|   | Average value of 1-d(TCG)/d(TCB)          |              L_C = 1.48082686741D-08   |                        | +/- 2D-17   |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|1.5|Body Constants:                            |                                        |                        |             |
+|   | Solar mass parameter#                     |              GMS = 1.32712442099D20    | m^3/s^2 (TCB)          | +/- 1D10    |
+|   |                                           |                  = 1.32712440041D20    | m^3/s^2 (TDB)          | +/- 1D10    |
+|   | Equatorial radius for Earth               |        a_E = a_e = 6378136.6           | m       (TT)           | +/- 0.1     |
+|   | Dynamical form-factor for the Earth       |              J_2 = 0.0010826359        |                        | +/- 1D-10   |
+|   | Long-term variation in J_2                |        \dot{J_2} = -3.0D-09            | per cy                 | +/- 6D-10   |
+|   | Geocentric gravitational constant         |              GME = 3.986004418D14      | m^3/s^2 (TCB)          | +/- 8D05    |
+|   |                                           |                  = 3.986004415D14      | m^3/s^2 (TT)           | +/- 8D05    |
+|   |                                           |                  = 3.986004356D14      | m^3/s^2 (TDB)          | +/- 8D05    |
+|   | Potential of the geoid                    |              W_0 = 6.26368560D07       | m^2/s^2                | +/- 0.5     |
+|   | Nominal mean angular vel.of Earth rotation|            omega = 7.292115D-05        | rad/s   (TT)           |             |
+|   | Mass Ratio: Moon to Earth                 |        M_M / M_E = 1.23000371D-02      |                        | +/- 4D-10   |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|   | Ratio of the Mass of the Sun to the Mass of the Body*                              |                        |             |
+|   | Mass Ratio: Sun to Mercury                |  M_S / M_Me      = 6.0236D06           |                        | +/- 3D02    |
+|   | Mass Ratio: Sun to Venus                  |  M_S / M_Ve      = 4.08523719D05       |                        | +/- 8D-03   |
+|   | Mass Ratio: Sun to Mars                   |  M_S / M_Ma      = 3.09870359D06       |                        | +/- 2D-02   |
+|   | Mass Ratio: Sun to Jupiter                |  M_S / M_J       = 1.047348644D03      |                        | +/- 1.7D-05 |
+|   | Mass Ratio: Sun to Saturn                 |  M_S / M_Sa      = 3.4979018D03        |                        | +/- 1D-04   |
+|   | Mass Ratio: Sun to Uranus                 |  M_S / M_U       = 2.290298D04         |                        | +/- 3D-02   |
+|   | Mass Ratio: Sun to Neptune                |  M_S / M_N       = 1.941226D04         |                        | +/- 3D-02   |
+|   | Mass Ratio: Sun to (134340) Pluto         |  M_S / M_P       = 1.36566D08          |                        | +/- 2.8D04  |
+|   | Mass Ratio: Sun to (136199) Eris          |  M_S / M_Eris    = 1.191D08            |                        | +/- 1.4D06  |
+|   |                                                                                                                           |
+|   | *All values of the masses from Mars to Eris are the sum of the masses of the celestial bodies and its satellites.         |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|   | Ratio of the Mass of the Body to the Mass of the Sun                               |                        |             |
+|   | Mass Ratio: (1) Ceres to Sun              |  M_Ceres  /M_S   = 4.72D-10            |                        | +/- 3D-12   |
+|   | Mass Ratio: (2) Pallas to Sun             |  M_Pallas /M_S   = 1.03D-10            |                        | +/- 3D-12   |
+|   | Mass Ratio: (4) Vesta to Sun              |  M_Vesta  /M_S   = 1.35D-10            |                        | +/- 3D-12   |
+|   |-------------------------------------------|----------------------------------------|------------------------|-------------|
+|1.6|Initial Values at J2000.0:                 |                                        |                        |             |
+|   | Mean obliquity of the ecliptic, epsilon_0 |  epsilon_J2000.0 = 23 26 21.406        | o ' "                  |             |
+|   |                                           |                  = 84381.406           | "                      | +/- 0.001   |
+|+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
+|2  |Constants from IAU WG on Cartographic Coordinates and Rotational Elements: 2009                                            |
+|   |---------------------------------------------------------------------------------------------------------------------------|
+|   | Equatorial radii:                         |                                        |                        |             |
+|   |                 Mercury                   |                  =   2439.7            | km                     | +/-  1.0    |
+|   |                 Venus                     |                  =   6051.8            | km                     | +/-  1.0    |
+|   |                 Earth                     |                  =   6378.1366         | km                     | +/-  0.0001 |
+|   |                 Mars                      |                  =   3396.19           | km                     | +/-  0.1    |
+|   |                 Jupiter                   |                  =  71492              | km                     | +/-  4      |
+|   |                 Saturn                    |                  =  60268              | km                     | +/-  4      |
+|   |                 Uranus                    |                  =  25559              | km                     | +/-  4      |
+|   |                 Neptune                   |                  =  24764              | km                     | +/- 15      |
+|   |                 (134340) Pluto            |                  =   1195              | km                     | +/-  5      |
+|   |                 Moon (mean)               |                  =   1737.4            | km                     | +/-  1      |
+|   |                 Sun                       |                  = 696000              | km                     |             |
+|+++|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
+|3  |Other Constants                                                                                                            |
+|   |---------------------------------------------------------------------------------------------------------------------------|
+|   | Light-time for unit distance#             |      tau_A = A/c = 499.00478384        | s                      |             |
+|   |                                           |          1/tau_A = 173.144632674       | au/d                   |             |
+|   |                                           |                                        |                        |             |
+|   | Mass Ratio: Earth to Moon                 |  M_E/M_M = 1/mu  =     81.300568       |                        | +/-  3D-06  |
+|   | Mass Ratio: Sun to Earth                  |         GMS/GME  = 332946.0487         |                        | +/-  0.0007 |
+|   | Mass of the Sun                           |  M_S = S = GMS/G =      1.9884D30      | kg                     | +/-  2D26   |
+|   | Mass of the Earth                         |  M_E = E = GME/G =      5.9722D24      | kg                     | +/-  6D20   |
+|   | Mass Ratio: Sun to Earth + Moon           |  (S/E)/(1 + mu)  = 328900.5596         |                        | +/-  7D-04  |
+|   |                                           |                                        |                        |             |
+|   | Earth, reciprocal of flattening IERS 2010 |             1/f  = 298.25642           |                        | +/-  1D-05  |
+|   |                                           |                                        |                        |             |
+|   | Rates of precession at J2000.0 (IAU 2006) |                                        |                        |             |
+|   |  General precession in longitude          |             p_A  = 5028.796195         | "/Julian century (TDB) |             |
+|   |  Rate of change in obliquity              |    d(epsilon)/dT =  -46.836769         | "/Julian century (TDB) |             |
+|   |  Precession of the equator in longitude   |        d(psi)/dT = 5038.481507         | "/Julian century (TDB) |             |
+|   |  Precession of the equator in obliquity   |      d(omega)/dT =   -0.025754         | "/Julian century (TDB) |             |
+|   |                                           |                                        |                        |             |
+|   | Constant of nutation at epoch J2000.0     |                N =  9.2052331          | "                      |             |
+|   | Solar parallax, pi_odot                   |    sin^-1(a_e/A) =  8.794143           | "                      |             |
+|   | Constant of aberration at epoch J2000.0   |            kappa = 20.49551            | "                      |             |
+|   |                                           |                                        |                        |             |
+|   | Masses of the larger natural satellites:  |                                        |                        |             |
+|   |  Mass satellite/mass of the planet        |                                        |                        |             |
+|   |                 Jupiter:  Io              |                  = 4.704D-05           |                        |             |
+|   |                           Europa          |                  = 2.528D-05           |                        |             |
+|   |                           Ganymede        |                  = 7.805D-05           |                        |             |
+|   |                           Callisto        |                  = 5.667D-05           |                        |             |
+|   |                 Saturn:   Titan           |                  = 2.366D-04           |                        |             |
+|   |                 Uranus:   Titania         |                  = 4.06D-05            |                        |             |
+|   |                           Oberon          |                  = 3.47D-05            |                        |             |
+|   |                 Neptune:  Triton          |                  = 2.089D-04           |                        |             |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|                                                                                                                               |
+| Users are  advised  to check  the website  of  the  IAU  WG  on  Numerical  Standards  for  Fundamental  Astronomy  (NSFA) at |
+| http://maia.usno.navy.mil/NSFA  for  the  latest  list  of  'Current  Best  Estimates'.  The  NSFA website  also has detailed |
+| information about the constants, and all the relevant references.                                                             |
+|                                                                                                                               |
+| This almanac,  in certain circumstances,  may not use constants from this list.  The reasons and those constants used will be |
+| given at the end of Section L Notes and References.                                                                           |
+|                                                                                                                               |
+| Units                                                                                                                         |
+| -----                                                                                                                         |
+| The units meter (m),  kilogram  (kg), and SI second (s) are the units of length, mass and time in the International System of |
+| Units (SI).                                                                                                                   |
+|                                                                                                                               |
+| The astronomical unit of time  is  a  time interval of one day (D) of 86400 seconds.  An interval of 36525 days is one Julian |
+| century.  Some  constants  that involve  time,   either directly  or indirectly  need to  be compatible  with the  underlying |
+| time-scales.  In order  to  specify  this (TDB) or (TCB) or (TT), as appropriate, is included after the unit to indicate that |
+| the value of the constant is compatible with the specified time-scale, for example, TDB-compatible.                           |
+|                                                                                                                               |
+| #The astronomical unit# of length (the  au) in  metres is re-defined (resolution B2, IAU XXVIII GA 2012) to be a conventional |
+| unit of length in agreement with the value adopted in the IAU 2009 Resolution B2;  it is to be used with all time scales such |
+| as TCB, TDB, TCG, TT, etc.  Also the  heliocentric gravitational constant GMS  is renamed the  solar mass parameter.  Further |
+| information is given at the end of Section L {\it Notes and References\/}.                                                    |
+|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
+|  2014 June 12                                                                                                             |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
